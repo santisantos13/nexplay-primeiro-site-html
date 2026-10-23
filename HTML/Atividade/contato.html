@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexPlay</title>
+</head>
+
+<body>
+    <h1>Contato NexPlay</h1>
+    <hr>
+    <a href="home.html">Home</a> | <a href="produtos.html">Produtos</a> | <a href="contato.html">Contato</a> | <a href="apresentacao.html">Apresentação</a>
+    <hr>
+    <p>Preencha o formulário para falar com o suporte</p> 
+    <form action="">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome..." required>
+        <br>
+        
+        <label for="email">Email : </label>
+        <input type="email" email="email" id="email" placeholder="Digite o seu email..." required>
+        <br>
+
+        <label for="telefone">Telefone: </label>
+        <input type="number" number="numero" id="numero" placeholder="Digite o seu telefone.." required>
+        <br>
+
+        <label for="Motivo">Motivo</label>
+        <select id="motivo">
+            <option value="">Avaliar o site</option>
+            <option value="">Reembolso</option>
+            <option value="">Tirar dúvidas</option>
+            <option value="">Outros</option>
+        </select>
+        <br>
+
+        <label for="data">Data do atendimento</label>
+        <input type="date" id="data" name="data">
+
+        <br>
+        <p>Digite a sua dúvida e entraremos em contato pelo email cadastrado.</p>
+        <textarea rows="5" cols="55" name="texto" id="texto"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+  
+
+</body>
+</html>
