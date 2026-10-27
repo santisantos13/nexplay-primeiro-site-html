@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexPlay</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Produtos NexPlay</h1>
+<body class="produtos-body">
+    <h1 class="nexplay"><a href="home.html">NexPlay</a></h1>
+    <h1>Produtos</h1>
     <hr>
-    <a href="home.html">Home</a> | <a href="produtos.html">Produtos</a> | <a href="contato.html">Contato</a> | <a href="apresentacao.html">Apresentação</a>
-
+    <nav class="menu-navegacao">
+        <a href="home.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Contato</a>
+        <a href="apresentacao.html">Apresentação</a>
+    </nav>
     <hr>
-    <img src="Imagens/Promocao.png" alt="Promoção de halloween" width="535">
-    <hr>
-<table border="1" cellpadding="10" cellspacing="0">
+<div class="tabela">
+    <table border="1" cellpadding="10" cellspacing="0" class="tabela">
     <caption><h2>Catálogo de Produtos NEXPLAY</h2></caption>
 
     <thead>
@@ -76,41 +81,16 @@
         </tr>
     </tbody>
 </table>
+</div>   
+
 <br><hr>
-    <form action="">
-        <label for="pedido">Faça seu pedido</label>
-                <select id="pedido">
-                    <option value="">Playstation 5</option>
-                    <option value="">Playstation 4</option>
-                    <option value="">Playstation 3</option>
-                    <option value="">Xbox Series X</option>
-                    <option value="">Xbox Series S</option>
-                    <option value="">Xbox One X</option>
-                    <option value="">Nintendo Switch</option>
-                    <option value="">Steam Deck</option>
-                    <option value="">Notebook Asus Tuf F16</option>
-                    <option value="">Notebook Acer Nitro</option>
-                    <option value="">Outros</option>
-                </select>
-                <label for="pedido">Quantidade</label>
-                <select id="pedido">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                    <option value="">7</option>
-                    <option value="">8</option>
-                    <option value="">9</option>
-                    <option value="">10</option>
-                </select>
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
-    </form><br>
-<hr>
-    <img src="Imagens/Catalogo.png" alt="Catalogo do Site" width="535">
-    <hr>
+<img src="Imagens/Promoção de Halloween NEXPLAY.png" alt="promoção halloween" width="545">
+<br><hr>
+    <div class="rodape">
+        <a href="https://www.kabum.com.br/" target="_blank" rel="noopener noreferrer">Kabum</a> |
+        <a href="https://www.magazineluiza.com.br?" target="_blank" rel="noopener noreferrer">Magalu</a> | <a href="https://www.pichau.com.br/" target="_blank" rel="noopener noreferrer">Pichau
+        </a>
+    </div>
 
 </body>
 </html>
